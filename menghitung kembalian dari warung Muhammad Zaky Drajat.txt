@@ -1,0 +1,15 @@
+
+rokok = 20000
+minyak = 25000
+gula = 11000
+diskon = 10000
+saldo = 100000
+
+hasil = rokok + minyak + gula 
+potong_diskon = hasil - diskon
+kembalian = saldo - potong_diskon
+print ('hasil', hasil)
+print ('potong_diskon', potong_diskon)
+print ('kembalian', kembalian)
+
+
